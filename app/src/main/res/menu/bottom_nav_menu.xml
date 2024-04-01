@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Plane"
+        android:icon="@drawable/plane_icon"
+        android:id="@+id/plane"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Solid"
+        android:icon="@drawable/solid_icon_img"
+        android:id="@+id/solid"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon_img"
+        android:id="@+id/profile"/>
+
+</menu>
