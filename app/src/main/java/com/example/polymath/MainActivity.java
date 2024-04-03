@@ -29,16 +29,18 @@ public class MainActivity extends AppCompatActivity {
 
         replaceFragment(new PlaneFragment());
 
+        binding.bottomNavigationView.setItemIconTintList(null);
+
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
             if (item.getItemId() == R.id.plane) {
-                info.setText("Choose the Shape!");
                 replaceFragment(new PlaneFragment());
-            } else if (item.getItemId() == R.id.solid) {
                 info.setText("Choose the Shape!");
+            } else if (item.getItemId() == R.id.solid) {
                 replaceFragment(new SolidFragment());
+                info.setText("Choose the Shape!");
             } else if (item.getItemId() == R.id.profile) {
-                info.setText("You’re Cool!");
                 replaceFragment(new ProfileFragment());
+                info.setText("You’re Cool!");
             }
             return true;
         });

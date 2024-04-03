@@ -5,7 +5,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:title="Plane"
-        android:icon="@drawable/plane_icon"
+        android:icon="@drawable/plane_icon_png"
         android:id="@+id/plane"/>
     <item
         android:layout_width="wrap_content"
